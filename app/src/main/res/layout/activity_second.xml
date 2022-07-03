@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#A381D6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Activity Ke 2, silakan masukan asset"
+        android:textSize="20dp"
+        android:textColor="#590F02" />
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="473dp"
+        android:text="Selamat Datang"
+        android:textColor="#EF0606"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
